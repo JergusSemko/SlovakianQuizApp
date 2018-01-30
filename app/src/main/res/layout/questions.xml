@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slovak_ball"
+    android:theme="@style/SlovakianQuiz"
+    tools:context="com.example.android.SlovakianQuiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q1mb"
+                android:layout_marginLeft="@dimen/q1ml"
+                android:layout_marginRight="@dimen/q1mr"
+                android:gravity="center"
+                android:text="@string/question1"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q1ts" />
+
+
+            <RadioGroup
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q1_answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/Bratislava"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q1_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/Kosice"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q1_answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/Pezinok"
+                    android:textColor="@color/colorAccent" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q2mb"
+                android:layout_marginLeft="@dimen/q2ml"
+                android:layout_marginRight="@dimen/q2mr"
+                android:layout_marginTop="@dimen/q2mt"
+                android:gravity="center"
+                android:text="@string/question2"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q2ts" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q2_answer1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="@dimen/q2a1mr"
+                    android:layout_weight="1"
+                    android:background="@drawable/bojnice"
+                    android:gravity="bottom"
+                    android:paddingTop="@dimen/q2a1pt" />
+
+                <RadioButton
+                    android:id="@+id/q2_answer2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="@dimen/q2a2mr"
+                    android:layout_weight="1"
+                    android:background="@drawable/cervkamen"
+                    android:gravity="bottom" />
+
+                <RadioButton
+                    android:id="@+id/q2_answer3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bratislavacastle"
+                    android:gravity="bottom" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q3mb"
+                android:layout_marginRight="@dimen/q3mr"
+                android:layout_marginTop="@dimen/q3mt"
+                android:gravity="center"
+                android:text="@string/question3"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q3ts" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q3_answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/central"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q3_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/western"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q3_answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/eastern"
+                    android:textColor="@color/colorAccent" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q4mb"
+                android:layout_marginLeft="@dimen/q4ml"
+                android:layout_marginRight="@dimen/q4mr"
+                android:layout_marginTop="@dimen/q4mt"
+                android:gravity="center"
+                android:text="@string/question4"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q4ts" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q4_answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/high_tatras"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q4_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/low_tatras"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q4_answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="@string/alps"
+                    android:textColor="@color/colorAccent" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q5mb"
+                android:layout_marginRight="@dimen/q5mr"
+                android:layout_marginTop="@dimen/q5mt"
+                android:gravity="center"
+                android:text="@string/question5"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q5ts" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q5_answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="English"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q5_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Russian"
+                    android:textColor="@color/colorAccent" />
+
+                <RadioButton
+                    android:id="@+id/q5_answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Slovak"
+                    android:textColor="@color/colorAccent" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/q6mb"
+                android:layout_marginLeft="@dimen/q6ml"
+                android:layout_marginRight="@dimen/q6mr"
+                android:layout_marginTop="@dimen/q6mt"
+                android:gravity="center"
+                android:text="@string/question6"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q6ts" />
+
+            <CheckBox
+                android:id="@+id/q6_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/robert_fico"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q6a1ts" />
+
+            <CheckBox
+                android:id="@+id/q6_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/andrej_kiska"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q6a2ts" />
+
+            <CheckBox
+                android:id="@+id/q6_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ivan_gasparovic"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/q6a3ts" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/q7_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/question7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/textq"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/q7ts" />
+
+                <EditText
+                    android:id="@+id/answer_edit_text_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/question7"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/submb"
+            android:layout_marginTop="@dimen/submt"
+            android:background="@android:color/white"
+            android:onClick="submit"
+            android:scrollHorizontally="true"
+            android:text="@string/submit"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+</ScrollView>

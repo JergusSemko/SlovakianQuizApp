@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Slovakian Quiz</string>
+    <string name="title">Slovakian Quiz</string>
+    <string name="question1">1. What is the capital of Slovakia</string>
+    <string name="question2">2. Which one is Bratislava Castle</string>
+    <string name="question3">3. In which part of Europe is Slovakia located</string>
+    <string name="question4">4. What is the name of the largest slovakian mountains</string>
+    <string name="question5">5. What is the official slovakian language</string>
+    <string name="question6">6. Who are the last two slovakian presidents</string>
+    <string name="high_tatras">High Tatras</string>
+    <string name="low_tatras">Low Tatras</string>
+    <string name="alps">Alps</string>
+    <string name="central">Central Europe</string>
+    <string name="western">Western Europe</string>
+    <string name="eastern">Eastern Europe</string>
+    <string name="welcome1">Welcome to Slovakian Quiz</string>
+    <string name="welcome2">Enter your name here</string>
+    <string name="submit">Submit</string>
+    <string name="final1">Congratulations, <xliff:g example="Jerry" id="name">%s</xliff:g>!</string>
+    <string name="final2">You achieved <xliff:g example="0" id="points">%s</xliff:g> out of 16 points!</string>
+    <string name="robert_fico">Robert Fico</string>
+    <string name="andrej_kiska">Andrej Kiska</string>
+    <string name="ivan_gasparovic">Ivan Gasparovic</string>
+    <string name="Bratislava">Bratislava</string>
+    <string name="Kosice">Kosice</string>
+    <string name="Pezinok">Pezinok</string>
+    <string name="textq">7. How many people live in Slovakia</string>
+    <string name="texta">5 million</string>
+    <string name="hint">5 million</string>
+</resources>

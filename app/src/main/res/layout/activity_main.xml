@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slovakia_wood_flag_cut1"
+    tools:context="com.example.android.SlovakianQuiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mainQuizb"
+            android:layout_marginLeft="@dimen/mainQuizl"
+            android:layout_marginRight="@dimen/mainQuizr"
+            android:layout_marginTop="@dimen/mainQuizt"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textSize="@dimen/mainQuizSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/welcome1"
+            android:textColor="@color/welcome1"
+            android:textSize="@dimen/welcomeSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/welcome2"
+            android:textColor="@color/enterColor"
+            android:textSize="@dimen/enterSize" />
+
+        <EditText
+            android:id="@+id/enteredName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/enterHintT"
+            android:gravity="center"
+            android:hint="Enter your name"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lets_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/startBottom"
+        android:background="@color/start_button"
+        android:onClick="letsStart"
+        android:text="Lets Start"
+        android:textAllCaps="true" />
+
+</RelativeLayout>
