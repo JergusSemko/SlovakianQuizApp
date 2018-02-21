@@ -45,4 +45,13 @@
     <dimen name="q7ts">25sp</dimen>
     <dimen name="submb">10dp</dimen>
     <dimen name="submt">25dp</dimen>
+    <dimen name="q1mt">16dp</dimen>
+    <dimen name="q1ams">10dp</dimen>
+    <dimen name="q2ams">10dp</dimen>
+    <dimen name="q3ams">10dp</dimen>
+    <dimen name="q4ams">10dp</dimen>
+    <dimen name="q5ams">10dp</dimen>
+    <dimen name="q6a1ms">10dp</dimen>
+    <dimen name="q6a2ms">10dp</dimen>
+    <dimen name="q6a3ms">10dp</dimen>
 </resources>
