@@ -5,11 +5,7 @@
     android:layout_height="match_parent"
     android:theme="@style/SlovakianQuiz"
     tools:context="com.example.android.SlovakianQuiz.MainActivity"
-    android:fillViewport="true">
-
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:fillViewport="true"
     android:background="#2aaef0">
 
         <LinearLayout
@@ -36,13 +32,12 @@
 
 
                 <RadioGroup
-                    android:id="@+id/question1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/q1_answer1"
+                        android:id="@+id/rb_question1_answer1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -52,7 +47,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q1_answer2"
+                        android:id="@+id/rb_question1_answer2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -61,7 +56,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q1_answer3"
+                        android:id="@+id/rb_question1_answer3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -94,7 +89,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/q2_answer1"
+                        android:id="@+id/rb_question2_answer1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/q2a1mr"
@@ -106,7 +101,7 @@
                         android:textColor="@color/colorAccent"/>
 
                     <RadioButton
-                        android:id="@+id/q2_answer2"
+                        android:id="@+id/rb_question2_answer2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/q2a2mr"
@@ -117,7 +112,7 @@
                         android:textColor="@color/colorAccent"/>
 
                     <RadioButton
-                        android:id="@+id/q2_answer3"
+                        android:id="@+id/rb_question2_answer3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/saladin"
@@ -150,7 +145,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/q3_answer1"
+                        android:id="@+id/rb_question3_answer1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -160,7 +155,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q3_answer2"
+                        android:id="@+id/rb_question3_answer2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -169,7 +164,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q3_answer3"
+                        android:id="@+id/rb_question3_answer3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -202,7 +197,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/q4_answer1"
+                        android:id="@+id/rb_question4_answer1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -212,7 +207,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q4_answer2"
+                        android:id="@+id/rb_question4_answer2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -221,7 +216,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q4_answer3"
+                        android:id="@+id/rb_question4_answer3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -253,7 +248,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/q5_answer1"
+                        android:id="@+id/rb_question5_answer1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -263,7 +258,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q5_answer2"
+                        android:id="@+id/rb_question5_answer2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -272,7 +267,7 @@
                         android:textColor="@color/colorAccent" />
 
                     <RadioButton
-                        android:id="@+id/q5_answer3"
+                        android:id="@+id/rb_question5_answer3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -300,7 +295,7 @@
                     android:textSize="@dimen/q6ts" />
 
                 <CheckBox
-                    android:id="@+id/q6_answer1"
+                    android:id="@+id/cb_question6_answer1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -311,7 +306,7 @@
                     android:textSize="@dimen/q6a1ts" />
 
                 <CheckBox
-                    android:id="@+id/q6_answer2"
+                    android:id="@+id/cb_question6_answer2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -322,7 +317,7 @@
                     android:textSize="@dimen/q6a2ts" />
 
                 <CheckBox
-                    android:id="@+id/q6_answer3"
+                    android:id="@+id/cb_question6_answer3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -334,17 +329,13 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/question7_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <RelativeLayout
-                    android:id="@+id/q7_edit_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
                     <TextView
-                        android:id="@+id/question7"
+                        android:id="@+id/et_question7_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -353,14 +344,11 @@
                         android:textSize="@dimen/q7ts" />
 
                     <EditText
-                        android:id="@+id/answer_edit_text_7"
+                        android:id="@+id/et_answer_edit_text_7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/question7"
                         android:inputType="text"
-                        android:labelFor="@+id/answer_edit_text_7" />
-
-                </RelativeLayout>
+                        android:labelFor="@+id/et_answer_edit_text_7" />
             </LinearLayout>
 
             <Button
@@ -378,6 +366,4 @@
                 android:textColor="@color/colorAccent"
                 tools:ignore="OnClick" />
         </LinearLayout>
-    </RelativeLayout>
 </ScrollView>
-

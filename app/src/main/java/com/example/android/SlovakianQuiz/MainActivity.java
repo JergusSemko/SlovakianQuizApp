@@ -28,29 +28,29 @@ public class MainActivity extends AppCompatActivity {
             A little hint, the answer is "5 million" but I am sure you can find it
             in the code anyway ;)
          */
-        answerQ7 = findViewById(R.id.answer_edit_text_7);
+        answerQ7 = findViewById(R.id.et_answer_edit_text_7);
     }
 
     public void submit(View view) {
 
         //This method takes care of pretty much everything
         points = 0;
-        q1Answer1 = findViewById(R.id.q1_answer1);
-        q2Answer2 = findViewById(R.id.q2_answer2);
-        q3Answer1 = findViewById(R.id.q3_answer1);
-        q4Answer1 = findViewById(R.id.q4_answer1);
-        q5Answer3 = findViewById(R.id.q5_answer3);
+        q1Answer1 = findViewById(R.id.rb_question1_answer1);
+        q2Answer2 = findViewById(R.id.rb_question2_answer2);
+        q3Answer1 = findViewById(R.id.rb_question3_answer1);
+        q4Answer1 = findViewById(R.id.rb_question4_answer1);
+        q5Answer3 = findViewById(R.id.rb_question5_answer3);
 
         //Here are the lines for question 6 concerning check box part of the app
-        CheckBox q6Answer1 = findViewById(R.id.q6_answer1);
+        CheckBox q6Answer1 = findViewById(R.id.cb_question6_answer1);
         boolean hasQ6Option1 = q6Answer1.isChecked();
         Log.v("MainActivity", "Correct q6Option1: " + hasQ6Option1);
 
-        CheckBox q6Answer2 = findViewById(R.id.q6_answer2);
+        CheckBox q6Answer2 = findViewById(R.id.cb_question6_answer2);
         boolean hasQ6Option2 = q6Answer2.isChecked();
         Log.v("MainActivity", "Correct q6Option2: " + hasQ6Option2);
 
-        CheckBox q6Answer3 = findViewById(R.id.q6_answer3);
+        CheckBox q6Answer3 = findViewById(R.id.cb_question6_answer3);
         boolean hasQ6Option3 = q6Answer3.isChecked();
         Log.v("MainActivity", "Correct q6Option3: " + hasQ6Option3);
 
@@ -76,7 +76,10 @@ public class MainActivity extends AppCompatActivity {
         if (answerQ7.getText().toString().trim().equalsIgnoreCase(getString(R.string.texta))) {
             points += 1;
         }
-
-        Toast.makeText(getApplicationContext(), "Your score is " + points, Toast.LENGTH_SHORT).show();
+        if (points < 7){
+            Toast.makeText(getApplicationContext(), "Some answers are wrong. Your score is " + points, Toast.LENGTH_SHORT).show();
+        }else {
+            Toast.makeText(getApplicationContext(), "Great job. Your score is " + points, Toast.LENGTH_SHORT).show();
+        }
     }
 }
